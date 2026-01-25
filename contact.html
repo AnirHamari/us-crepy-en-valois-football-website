@@ -4,13 +4,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Contactez l'U.S. Crépy en Valois Football - Stades et informations de contact">
-    <title>Contact - U.S. Crépy en Valois Football</title>
+    <meta name="description"
+        content="Contactez l'US Crépy-en-Valois Football - Informations et coordonnées officielles">
+    <title>Contact - US Crépy-en-Valois Football</title>
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Outfit:wght@400;600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Outfit:wght@400;600;700;800;900&display=swap"
         rel="stylesheet">
 </head>
 
@@ -19,9 +20,9 @@
     <nav class="navbar" id="navbar">
         <div class="nav-container">
             <a href="index.html" class="nav-logo">
-                <img src="assets/images/logo.png" alt="U.S. Crépy en Valois Football Logo">
+                <img src="assets/images/logo.png" alt="US Crépy-en-Valois Football Logo">
                 <div class="nav-logo-text">
-                    <span class="club-name">U.S. CRÉPY EN VALOIS</span>
+                    <span class="club-name">US CRÉPY-EN-VALOIS</span>
                     <span class="club-location">Football</span>
                 </div>
             </a>
@@ -29,10 +30,9 @@
             <ul class="nav-menu" id="navMenu">
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="club.html">Le Club</a></li>
-                <li><a href="teams.html">Équipes</a></li>
-                <li><a href="matches.html">Matchs & Résultats</a></li>
-                <li><a href="news.html">Actualités</a></li>
+                <li><a href="competitions.html">Compétitions</a></li>
                 <li><a href="gallery.html">Galerie</a></li>
+                <li><a href="boutique.html">Boutique</a></li>
                 <li><a href="contact.html" class="active">Contact</a></li>
             </ul>
 
@@ -44,9 +44,9 @@
         </div>
     </nav>
 
-    <!-- Page Header -->
-    <section class="hero" style="min-height: 50vh;">
-        <img src="assets/images/stadium.jpg" alt="Contact" class="hero-background">
+    <!-- Hero Section -->
+    <section class="hero" style="min-height: 60vh;">
+        <img src="assets/images/blason-officiel.png" alt="Blason USCV" class="hero-background">
         <div class="hero-overlay"></div>
         <div class="hero-content">
             <h1 class="hero-title">Contact</h1>
@@ -54,114 +54,158 @@
         </div>
     </section>
 
-    <!-- Contact Info Section -->
-    <section class="section">
+    <!-- Informations de Contact -->
+    <section class="section section-dark">
         <div class="container">
             <div class="section-header">
-                <h2 class="section-title">Nos Coordonnées</h2>
-                <p class="section-subtitle">U.S. Crépy en Valois Football</p>
+                <h2 class="section-title">Informations Officielles</h2>
+                <p class="section-subtitle">US Crépy-en-Valois Football</p>
             </div>
 
-            <div class="card-grid">
+            <div class="card-grid" style="grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));">
+                <!-- Adresse -->
                 <div class="card">
                     <div class="card-content" style="text-align: center;">
                         <div style="font-size: 3rem; margin-bottom: 1rem;">📍</div>
-                        <h3 class="card-title">Localisation</h3>
+                        <h3 class="card-title">Adresse</h3>
                         <p class="card-text">
-                            <strong>Crépy-en-Valois</strong><br>
-                            Oise (60)<br>
-                            Hauts-de-France, France
+                            <strong>Rue Henri Laroche</strong><br>
+                            Crépy-en-Valois<br>
+                            France
                         </p>
                     </div>
                 </div>
 
+                <!-- Téléphone -->
                 <div class="card">
                     <div class="card-content" style="text-align: center;">
-                        <div style="font-size: 3rem; margin-bottom: 1rem;">📱</div>
-                        <h3 class="card-title">Réseaux Sociaux</h3>
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">📞</div>
+                        <h3 class="card-title">Téléphone</h3>
                         <p class="card-text">
-                            Suivez-nous et contactez-nous via notre page Facebook officielle.
+                            <a href="tel:+33768214079"
+                                style="color: var(--color-gold-primary); font-weight: 700; font-size: 1.2rem;">
+                                +33 7 68 21 40 79
+                            </a>
                         </p>
-                        <div style="margin-top: 1.5rem;">
-                            <a href="https://www.facebook.com/UsCrepyfootball/" target="_blank"
-                                rel="noopener noreferrer" class="btn btn-primary">
-                                Page Facebook
+                    </div>
+                </div>
+
+                <!-- Email -->
+                <div class="card">
+                    <div class="card-content" style="text-align: center;">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">✉️</div>
+                        <h3 class="card-title">Email</h3>
+                        <p class="card-text">
+                            <a href="mailto:crepyenvalois.us.500503@lfhf.fr"
+                                style="color: var(--color-gold-primary); font-weight: 600; word-break: break-all;">
+                                crepyenvalois.us.500503@lfhf.fr
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Informations Complémentaires -->
+            <div style="max-width: 800px; margin: 3rem auto 0;">
+                <div class="card">
+                    <div class="card-content" style="text-align: center;">
+                        <h3 class="card-title">Informations Complémentaires</h3>
+                        <p class="card-text" style="font-size: 1.1rem; line-height: 1.8;">
+                            <strong>Club FFF :</strong> <span
+                                style="color: var(--color-gold-primary);">#500503</span><br>
+                            <strong>Statut :</strong> Toujours ouvert<br>
+                            <strong>Recommandé par :</strong> 76%
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Liens Rapides -->
+    <section class="section section-darker">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Liens Rapides</h2>
+                <p class="section-subtitle">Accédez rapidement à nos plateformes</p>
+            </div>
+
+            <div class="card-grid">
+                <!-- Site FFF -->
+                <div class="card" style="text-align: center;">
+                    <div class="card-content">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">🏆</div>
+                        <h3 class="card-title">Site FFF Officiel</h3>
+                        <p class="card-text" style="margin-bottom: 1.5rem;">
+                            Résultats, calendriers et classements
+                        </p>
+                        <a href="https://epreuves.fff.fr/competition/club/500503-u-s-crepy-en-valois/club"
+                            target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                            Accéder au Site FFF
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Facebook -->
+                <div class="card" style="text-align: center;">
+                    <div class="card-content">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">📱</div>
+                        <h3 class="card-title">Facebook</h3>
+                        <p class="card-text" style="margin-bottom: 1.5rem;">
+                            Actualités et photos du club
+                        </p>
+                        <a href="https://www.facebook.com/UsCrepyfootball/" target="_blank" rel="noopener noreferrer"
+                            class="btn btn-primary">
+                            Page Facebook
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Boutique -->
+                <div class="card" style="text-align: center;">
+                    <div class="card-content">
+                        <div style="font-size: 3rem; margin-bottom: 1rem;">🛒</div>
+                        <h3 class="card-title">Boutique JAKO</h3>
+                        <p class="card-text" style="margin-bottom: 1.5rem;">
+                            Équipements officiels du club
+                        </p>
+                        <a href="https://team.jako.com/fr-fr/team/boutique_us_cr_py_en_valois" target="_blank"
+                            rel="noopener noreferrer" class="btn btn-primary">
+                            Boutique Officielle
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section (Placeholder) -->
+    <section class="section section-blue">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nous Trouver</h2>
+                <p class="section-subtitle">Complexe Sportif Patrice Cauvin</p>
+            </div>
+
+            <div style="max-width: 900px; margin: 0 auto; text-align: center;">
+                <div class="card">
+                    <div class="card-content">
+                        <h3 class="card-title">📍 Adresse Principale</h3>
+                        <p class="card-text" style="font-size: 1.2rem; line-height: 1.8;">
+                            <strong>Complexe Sportif Patrice Cauvin</strong><br>
+                            Rue Henri Laroche<br>
+                            60800 Crépy-en-Valois<br>
+                            France
+                        </p>
+                        <div style="margin-top: 2rem;">
+                            <a href="https://www.google.com/maps/search/Rue+Henri+Laroche+Crépy-en-Valois"
+                                target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+                                Ouvrir dans Google Maps
                             </a>
                         </div>
                     </div>
                 </div>
-
-                <div class="card">
-                    <div class="card-content" style="text-align: center;">
-                        <div style="font-size: 3rem; margin-bottom: 1rem;">🏟️</div>
-                        <h3 class="card-title">Club FFF</h3>
-                        <p class="card-text">
-                            <strong>Numéro FFF : #500503</strong><br>
-                            Ligue de Football des Hauts-de-France<br>
-                            District Oise
-                        </p>
-                    </div>
-                </div>
             </div>
-        </div>
-    </section>
-
-    <!-- Stadiums Section -->
-    <section class="section section-dark">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Nos Installations</h2>
-                <p class="section-subtitle">Stades et terrains</p>
-            </div>
-
-            <div class="card-grid" style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));">
-                <div class="card">
-                    <img src="assets/images/stadium.jpg" alt="Complexe Sportif Patrice Cauvin" class="card-image">
-                    <div class="card-content">
-                        <h3 class="card-title">Complexe Sportif Patrice Cauvin</h3>
-                        <p class="card-text">
-                            📍 <strong>Rue Henri Laroche</strong><br>
-                            60800 Crépy-en-Valois
-                        </p>
-                        <p class="card-text" style="margin-top: 1rem;">
-                            Installation principale du club.
-                        </p>
-                    </div>
-                </div>
-
-                <div class="card">
-                    <img src="assets/images/stadium.jpg" alt="Stade Municipal 2" class="card-image">
-                    <div class="card-content">
-                        <h3 class="card-title">Stade Municipal 2</h3>
-                        <p class="card-text">
-                            📍 <strong>Rue Jacques Ratisbonne</strong><br>
-                            60800 Crépy-en-Valois
-                        </p>
-                        <p class="card-text" style="margin-top: 1rem;">
-                            Terrain complémentaire.
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Social Media CTA -->
-    <section class="section section-light">
-        <div class="container" style="text-align: center;">
-            <h2 class="section-title">Restez Connectés</h2>
-            <p style="font-size: 1.2rem; margin-bottom: 2rem; max-width: 700px; margin-left: auto; margin-right: auto;">
-                Pour toute question ou information, retrouvez-nous sur notre page Facebook officielle.
-            </p>
-            <a href="https://www.facebook.com/UsCrepyfootball/" target="_blank" rel="noopener noreferrer"
-                class="btn btn-primary">
-                <svg width="20" height="20" fill="currentColor" viewBox="0 0 24 24"
-                    style="display: inline-block; vertical-align: middle; margin-right: 0.5rem;">
-                    <path
-                        d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
-                </svg>
-                Suivre sur Facebook
-            </a>
         </div>
     </section>
 
@@ -169,19 +213,22 @@
     <footer class="footer">
         <div class="footer-content">
             <div class="footer-section">
-                <h3>U.S. Crépy en Valois Football</h3>
+                <h3>US Crépy-en-Valois Football</h3>
                 <p>Club FFF #500503</p>
                 <p>Ligue de Football des Hauts-de-France</p>
                 <p>District Oise</p>
-                <p style="margin-top: 1rem; color: var(--color-gold-primary);">Couleurs : Jaune et Bleu</p>
+                <p style="margin-top: 1rem; color: var(--color-gold-primary); font-weight: 700;">Couleurs : Jaune et
+                    Bleu 💛💙</p>
             </div>
 
             <div class="footer-section">
                 <h3>Navigation</h3>
                 <p><a href="index.html">Accueil</a></p>
                 <p><a href="club.html">Le Club</a></p>
-                <p><a href="teams.html">Équipes</a></p>
-                <p><a href="matches.html">Matchs & Résultats</a></p>
+                <p><a href="competitions.html">Compétitions</a></p>
+                <p><a href="gallery.html">Galerie</a></p>
+                <p><a href="boutique.html">Boutique</a></p>
+                <p><a href="contact.html">Contact</a></p>
             </div>
 
             <div class="footer-section">
@@ -200,13 +247,14 @@
 
             <div class="footer-section">
                 <h3>Contact</h3>
-                <p>📍 Crépy-en-Valois<br>Oise (60), Hauts-de-France</p>
-                <p><a href="contact.html">Nous contacter</a></p>
+                <p>📍 Rue Henri Laroche<br>Crépy-en-Valois, France</p>
+                <p>📞 +33 7 68 21 40 79</p>
+                <p>✉️ crepyenvalois.us.500503@lfhf.fr</p>
             </div>
         </div>
 
         <div class="footer-bottom">
-            <p>&copy; 2026 U.S. Crépy en Valois Football. Tous droits réservés.</p>
+            <p>&copy; 2026 US Crépy-en-Valois Football. Tous droits réservés.</p>
         </div>
     </footer>
 
